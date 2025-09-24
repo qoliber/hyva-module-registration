@@ -1,5 +1,5 @@
 {
-    "name": "qoliber/module-hyva-module-registration",
+    "name": "qoliber/hyva-module-registration",
     "description": "Qoliber Hyva Module Registration - Automatically registers Qoliber modules for Hyva themes",
     "type": "magento2-module",
     "license": "proprietary",
