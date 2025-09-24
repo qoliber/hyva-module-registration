@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Created by Qoliber
+ *
+ * @category    Qoliber
+ * @package     Qoliber_HyvaModuleRegistration
+ * @author      Jakub Winkler <jwinkler@qoliber.com>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="hyva_config_generate_before">
+        <observer name="Qoliber_HyvaModuleRegistration"
+                  instance="Qoliber\HyvaModuleRegistration\Observer\RegisterModulesForHyva"/>
+    </event>
+</config>

@@ -1,0 +1,27 @@
+{
+    "name": "qoliber/module-hyva-module-registration",
+    "description": "Qoliber Hyva Module Registration - Automatically registers Qoliber modules for Hyva themes",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.0-rc1",
+    "authors": [
+        {
+            "name": "Jakub Winkler",
+            "email": "jwinkler@qoliber.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~8.1.0||~8.2.0||~8.3.0",
+        "magento/framework": "*",
+        "hyva-themes/magento2-theme-module": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Qoliber\\HyvaModuleRegistration\\": ""
+        }
+    }
+}
