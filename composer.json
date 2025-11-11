@@ -3,7 +3,7 @@
     "description": "Qoliber Hyva Module Registration - Automatically registers Qoliber modules for Hyva themes",
     "type": "magento2-module",
     "license": "proprietary",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Jakub Winkler",
