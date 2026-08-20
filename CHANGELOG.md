@@ -4,6 +4,20 @@ All notable changes to the Qoliber Hyva Module Registration will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.0.2] - 2026-08-20
+
+### Changed
+- Declared PHP 8.5 support - `require.php` is now `~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0`
+- Verified the 8.1 floor with the Rector downgrade dry-run (no syntax newer than PHP 8.1) and the 8.5 ceiling by running the observer on PHP 8.5 (no deprecations)
+- Pinned `magento/framework` to `^103.0` and `hyva-themes/magento2-theme-module` to `^1.3` instead of `*`
+- Aligned composer.json with the Qoliber standard: `qoliber` author block, `homepage`, `support`, `keywords`, canonical key order
+- Switched `minimum-stability` from `dev` to `stable`
+
+## [1.0.1] - 2026-04-21
+
+### Changed
+- Added PHP 8.4 support to the composer constraint
+
 ## [1.0.0] - 2025-10-10
 
 ### Added
