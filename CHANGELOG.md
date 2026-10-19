@@ -4,6 +4,11 @@ All notable changes to the Qoliber Hyva Module Registration will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.0.3] - 2026-10-19
+
+### Changed
+- The repository moved to gitlab.qoliber.com. `support.source` and the `source` URL point there instead of gitlab.qoliber.dev.
+
 ## [1.0.2] - 2026-08-20
 
 ### Changed

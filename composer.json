@@ -2,7 +2,7 @@
     "name": "qoliber/hyva-module-registration",
     "description": "Qoliber Hyva Module Registration - Automatically registers Qoliber modules for Hyva themes",
     "type": "magento2-module",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "license": "proprietary",
     "authors": [
         {
@@ -14,7 +14,7 @@
     "homepage": "https://qoliber.com",
     "support": {
         "email": "extensions@qoliber.com",
-        "source": "https://gitlab.qoliber.dev/qoliber/hyva-module-registration"
+        "source": "https://gitlab.qoliber.com/qoliber/hyva-module-registration"
     },
     "keywords": [
         "magento2",
@@ -25,7 +25,7 @@
     ],
     "source": {
         "type": "git",
-        "url": "git@gitlab.qoliber.dev:qoliber/hyva-module-registration.git",
+        "url": "git@gitlab.qoliber.com:qoliber/hyva-module-registration.git",
         "reference": "main"
     },
     "require": {
